@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  
+  h1= title
+  p.welcome Thanks for dropping buy. Leave a message yeah?
+  a(href="/new") add a message
+  each data in messages
+    div(class="message")
+      p.user= data.user
+      p.date= data.added
+      p.text= data.text 

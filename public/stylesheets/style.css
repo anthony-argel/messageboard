@@ -1,0 +1,42 @@
+html {
+  background-color: #fafafa;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+.welcome, a {
+  font-size: 2vw;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.message {
+  text-align: left;
+  background-color: rgb(1, 172, 1);
+  padding: 2vw;
+  margin-top: 2vw;
+  border-radius: 2vw;
+  font-size: 2vw;
+  box-shadow: 0 0 1vw rgb(0, 0, 0);
+}
+
+.user {
+  font-size: 2.7vw;
+}
+
+.date {
+  font-size: 1.3vw;
+}
+
+.text {
+  font-size: 2vw;
+}

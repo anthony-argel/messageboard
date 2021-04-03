@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    form(method="POST" action="/new") 
+        h1 Submission Form
+        input(type="text", placeholder="author", required="true", name="author")
+        br
+        textarea(placeholder="message", required="true", name="message", cols="60", rows="30")
+        br
+        button submit
